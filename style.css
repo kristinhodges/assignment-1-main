@@ -58,7 +58,8 @@ article div {
 
 p {
   line-height: 1.5;
-  text-align: justify;
+  margin: auto;
+  text-align: left;
 }
 section {
   text-align: center;
