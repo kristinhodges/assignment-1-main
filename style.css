@@ -69,7 +69,7 @@ section {
   
 /* The div container constrains the content width within the main container to 600px */
 div {
-  margin: auto;
+  margin: center;
   width: 600px;
 }
 
