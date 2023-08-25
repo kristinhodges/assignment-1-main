@@ -31,16 +31,20 @@ h4 {
   text-align: center;
 }
 
+footer{
+  display: flex;
+  justify-content: center;
+  /* width: 50%; */
+}
 
 article {
-  padding: 50px 0;
+  padding: 50px;
   text-align: center;
 }
 
 
 
 ol,ul {
-  margin: 0 auto;
   width: fit-content;
   text-align: left;
 }
@@ -53,14 +57,15 @@ ol,ul {
 
 article div {
   text-align: center;
-  width: 100%;
+  width: 600px;
 }
 
 p {
   line-height: 1.5;
   margin: auto;
-  text-align: left;
+  text-align: justify;
 }
+
 section {
   text-align: center;
 }
@@ -69,7 +74,7 @@ section {
   
 /* The div container constrains the content width within the main container to 600px */
 div {
-  margin: center;
+  margin: auto;
   width: 600px;
 }
 
@@ -82,9 +87,15 @@ img {
 
 hr {
   border: 1px solid black;
+  width: 600px;
 }
 
 /* Add your solution below */
+
+#contact {
+  margin: 0 auto;
+  width: 40%;
+}
 
 .image-circle {
   border: 2px solid black;
